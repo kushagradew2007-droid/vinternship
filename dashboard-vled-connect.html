@@ -168,6 +168,7 @@ iframe {
     <div class="dashboard-menu">
       <div class="menu-item active" onclick="showInner(0,0)">State-wise</div>
       <div class="menu-item" onclick="showInner(0,1)">Institute-wise</div>
+      <div class="menu-item" onclick="showInner(0,2)">Milestone Deadlines</div>
     </div>
 
    <div class="dashboard-view">
@@ -205,6 +206,56 @@ iframe {
     </div>
   </div>
 
+  <!-- MILESTONE DEADLINES -->
+  <div class="dash-frame" id="milestoneDeadlinesContainer">
+    <div style="padding:20px; overflow-x:auto;">
+      <h3>Milestone Deadlines</h3>
+      <table border="1" cellpadding="8" cellspacing="0" width="100%">
+        <thead style="background:#1a237e;color:white;">
+          <tr>
+            <th>Vibe 25%</th>
+            <th>Vibe 50%</th>
+            <th>Vibe 75%</th>
+            <th>Vibe 100%</th>
+            <th>CS Week 1</th>
+            <th>CS Week 2</th>
+            <th>CS Week 3</th>
+            <th>CS Week 4</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>30 March 2026</td>
+            <td>06 April 2026</td>
+            <td>13 April 2026</td>
+            <td>20 April 2026</td>
+            <td>20 April 2026</td>
+            <td>27 April 2026</td>
+            <td>04 May 2026</td>
+            <td>11 May 2026</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 style="margin-top:24px;">Activity Deadlines</h3>
+      <table border="1" cellpadding="8" cellspacing="0" width="100%">
+        <thead style="background:#1a237e;color:white;">
+          <tr>
+            <th>Activity</th>
+            <th>Deadline</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>A1</td><td>To be announced soon</td></tr>
+          <tr><td>A2</td><td>To be announced soon</td></tr>
+          <tr><td>A3</td><td>To be announced soon</td></tr>
+          <tr><td>A4</td><td>To be announced soon</td></tr>
+          <tr><td>A5</td><td>To be announced soon</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
 </div>
 
   </div>
@@ -219,7 +270,8 @@ iframe {
     <div class="dashboard-menu">
       <div class="menu-item active" onclick="showInner(1,0)">Leaderboard</div>
       <div class="menu-item" onclick="showInner(1,1)">CS Progress</div>
-      <div class="menu-item" onclick="showInner(1,2)">Ticket Holders</div>
+      <div class="menu-item" onclick="showInner(1,2)">HP Dashboard</div>
+      <div class="menu-item" onclick="showInner(1,3)">Ticket Holders</div>
     </div>
 
     <div class="dashboard-view">
@@ -232,6 +284,9 @@ iframe {
   <iframe class="dash-frame"
     src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTp82wM5lv5-mX10J78TKzWSg8hS2WO1mUy-sxst0DCdcIQYeMihZd-MuZZ6X1tEg9EgwfQq4k-KUor/pubhtml?gid=0&single=true&widget=true&headers=false">
   </iframe>
+
+  <!-- HP Dashboard -->
+ <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT28HSq3DSzHSWRrrF0bQSMDw8fehLqcIEzrXwinWuJvjGxe29pvy9FRG1QNg6IkbIfvykFHQzReDE4/pubhtml?gid=713252598&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
   <!-- Tickets -->
   <div class="dash-frame placeholder">
@@ -253,7 +308,8 @@ iframe {
     <div class="dashboard-menu">
       <div class="menu-item active" onclick="showInner(2,0)">Leaderboard</div>
       <div class="menu-item" onclick="showInner(2,1)">CS Progress</div>
-      <div class="menu-item" onclick="showInner(2,2)">Ticket Holders</div>
+      <div class="menu-item" onclick="showInner(2,2)">HP Dashboard</div>
+      <div class="menu-item" onclick="showInner(2,3)">Ticket Holders</div>
     </div>
 
     <div class="dashboard-view">
@@ -264,6 +320,11 @@ iframe {
   <!-- CS Progress -->
   <iframe class="dash-frame"
    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQsWb0h6HIItpRkuLdfu5mPuVYuGwLeU3Vzve_6GYxk_g8pHelmM5VyAT-pwH3LPRbAhLvhyt16wd1a/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
+  <!-- HP Dashboard -->
+  <iframe class="dash-frame"
+    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRewgNbA-z4HAW6GDIzHiMIeIwSNODqLiWe6rMCukaQaa3Ho4jleEmn-AwwfBVA6aADoybhqer-mZjk/pubhtml?gid=713252598&amp;single=true&amp;widget=true&amp;headers=false">
+  </iframe>
 
   <!-- Tickets -->
   <div class="dash-frame placeholder">
@@ -283,7 +344,8 @@ iframe {
     <div class="dashboard-menu">
       <div class="menu-item active" onclick="showInner(3,0)">Leaderboard</div>
       <div class="menu-item" onclick="showInner(3,1)">CS Progress</div>
-      <div class="menu-item" onclick="showInner(3,2)">Ticket Holders</div>
+      <div class="menu-item" onclick="showInner(3,2)">HP Dashboard</div>
+      <div class="menu-item" onclick="showInner(3,3)">Ticket Holders</div>
     </div>
 
     <div class="dashboard-view">
@@ -296,6 +358,11 @@ iframe {
  <iframe  class="dash-frame"
    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ9QOU_xvP6RoqF5Odc4z24RRi2VLMivoUEApKvCBtZLWTO9iWlTmz0k5yR62nCuon2vsjIu_0pRFhR/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false">
    </iframe>
+
+  <!-- HP Dashboard -->
+  <iframe class="dash-frame"
+    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRnXj1CT449sRHehswqTH3-KmPizahJbyZJN3TFjHbfVqNXLMciKFGnZGC9S1P8fnFi0Urx89vEyKo-/pubhtml?gid=713252598&amp;single=true&amp;widget=true&amp;headers=false">
+  </iframe>
 
   <!-- Tickets -->
   <div class="dash-frame placeholder">
@@ -314,7 +381,8 @@ iframe {
     <div class="dashboard-menu">
       <div class="menu-item active" onclick="showInner(4,0)">Leaderboard</div>
       <div class="menu-item" onclick="showInner(4,1)">CS Progress</div>
-      <div class="menu-item" onclick="showInner(4,2)">Ticket Holders</div>
+      <div class="menu-item" onclick="showInner(4,2)">HP Dashboard</div>
+      <div class="menu-item" onclick="showInner(4,3)">Ticket Holders</div>
     </div>
 
     <div class="dashboard-view">
@@ -324,6 +392,10 @@ iframe {
 
       <iframe class="dash-frame"
         src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSiRjiVNS21UEbFZqQkSFaMz9UKtE2YsOXwd4m-xXyqlny2vy1rrbtjiUq5INnjhgDqk4i9Zh6pr-FL/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false">
+      </iframe>
+
+      <iframe class="dash-frame"
+        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTP3VjEoF3DCryzVhz-SgwpIBl1DX-MSZnxGSOC0CN2a5biqDyEAW_VZHAdkS213m2u1nnNLfhfDvrc/pubhtml?gid=713252598&amp;single=true&amp;widget=true&amp;headers=false">
       </iframe>
 
       <div class="dash-frame placeholder">
