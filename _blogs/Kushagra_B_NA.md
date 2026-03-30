@@ -47,5 +47,5 @@ It quietly changed how I deal with challenges while learning them.
 
 ---
 
-Author: [Kushagra Dewangan](www.linkedin.com/in/kushagra-dewangan-1258a53b6/){:target="_blank"}
-LinkedIn Article: [Read on LinkedIn](https://www.linkedin.com/pulse/learning-while-being-watched-struggling-moving-forward-dewangan-mc4ic/){:target="_blank"}
+Author: [Kushagra Dewangan](www.linkedin.com/in/kushagra-dewangan-1258a53b6/)
+LinkedIn Article: [Read on LinkedIn](https://www.linkedin.com/pulse/learning-while-being-watched-struggling-moving-forward-dewangan-mc4ic/)
